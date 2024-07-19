@@ -4,13 +4,13 @@ A place to store information on face detection , landmark detection, and angle i
 
 * Face detection / landmark * 
 
-|    Name       |# LM         | Notes |     Tested |   [ FSA-Net](https://github.com/omasaht/headpose-fsanet-pytorch)  |     [6Drepnet](https://github.com/thohemp/6DRepNet)  |
+|    Name       |# LM         | Notes |     Tested |   [ FSA-Net](https://github.com/omasaht/headpose-fsanet-pytorch) - input = image. problems with angles > 30degrees |     [6Drepnet](https://github.com/thohemp/6DRepNet) input = 68 points - not better than fsanet, but that could be due to upstream landmarks detection  |
 | ------------- | ------------- | ------------- | ------------- |  ------------- |  ------------- |
 |  [MTCNN](https://pypi.org/project/mtcnn/)        | 5  | Reliable, slow  | :heavy_check_mark:   | compatible  | _   | 
 |  [dlib](https://pypi.org/project/dlib/)         | 68  | not as good as MTCNN , dissappointing quality on angles | :heavy_check_mark:  | _   | compatible   |  
 | mnssd         | 5 | also good (like MTCNN)  | :heavy_check_mark:  | _   | _   | 
-| [yolov5-face](https://github.com/deepcam-cn/yolov5-face)   | 5  | Content Cell  |:heavy_check_mark:  |  current best practice  | _   | 
-| [yolov8-face](https://github.com/derronqi/yolov8-face)   | 5  | Content Cell  | _   | _   | _   |  
+| [yolov5-face](https://github.com/deepcam-cn/yolov5-face)   | 5  | Reliable  |:heavy_check_mark:  |  current best practice  | _   | 
+| [yolov8-face](https://github.com/derronqi/yolov8-face)   | 5  | _  | _   | _   | _   |  
 | [Wish yolov8face (51)](https://github.com/wish44165/Optimizing-Facial-Landmark-Estimation-for-Embedded-Systems)  | 51  | question wide angle?  |:heavy_check_mark:  | _   | _   |  
 |  [6Drepnet](https://github.com/thohemp/6DRepNet)     | 68 | fastish, less reliable than yolov5-face  |:heavy_check_mark:   | _   | _   |   
 | [deepface](https://pypi.org/project/deepface/#:~:text=Deepface%20is%20a%20hybrid%20face,configuration%20uses%20VGG%2DFace%20model.)  | max 5  |  many backbones | _  | _   | _   |   
