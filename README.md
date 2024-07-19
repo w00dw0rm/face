@@ -3,7 +3,7 @@
 A place to store information on face detection , landmark detection, and angle inference tools. 
 
 * Face detection / landmark * 
-
+|           |         |   |       |    angle est |      angle est |
 |    Name       |# LM         | Notes |     Tested |    FSA-Net |     6drepnet |
 | ------------- | ------------- | ------------- | ------------- |  ------------- |  ------------- |
 |  [MTCNN](https://pypi.org/project/mtcnn/)        | 5  | Reliable, slow  | :heavy_check_mark:   | compatible  | _   | 
