@@ -4,7 +4,7 @@ A place to store information on face detection , landmark detection, and angle i
 
 * Face detection / landmark * 
 
-|    Name       |# LM         | Notes |     Tested |    FSA-Net |     6drepnet |
+|    Name       |# LM         | Notes |     Tested |   [ FSA-Net](https://github.com/omasaht/headpose-fsanet-pytorch)  |     [6Drepnet](https://github.com/thohemp/6DRepNet)  |
 | ------------- | ------------- | ------------- | ------------- |  ------------- |  ------------- |
 |  [MTCNN](https://pypi.org/project/mtcnn/)        | 5  | Reliable, slow  | :heavy_check_mark:   | compatible  | _   | 
 |  [dlib](https://pypi.org/project/dlib/)         | ?  | not as good as MTCNN  | :heavy_check_mark:  | _   | _   |  
