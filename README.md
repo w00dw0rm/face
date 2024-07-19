@@ -11,8 +11,8 @@ A place to store information on face detection , landmark detection, and angle i
 | mnssd         | Content Cell  | Content Cell  |
 | yolov5-face   | Content Cell  | Content Cell  |
 | yolov8-face   | Content Cell  | Content Cell  |
-| Wish yolov8face (51)  | Content Cell  | [Content Cell](https://github.com/wish44165/Optimizing-Facial-Landmark-Estimation-for-Embedded-Systems)  |
-| Content Cell  | Content Cell  | Content Cell  |
+| Wish yolov8face (51)  | Content Cell  | [Wish yolov8face (51)](https://github.com/wish44165/Optimizing-Facial-Landmark-Estimation-for-Embedded-Systems)  |
+| 6drepnet (68)     | Content Cell  | [6Drepnet](https://github.com/thohemp/6DRepNet)  |
 | Content Cell  | Content Cell  | Content Cell  |
 
 
