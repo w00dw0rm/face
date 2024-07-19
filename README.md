@@ -13,16 +13,7 @@ A place to store information on face detection , landmark detection, and angle i
 | [yolov8-face](https://github.com/derronqi/yolov8-face)   | 5  | Content Cell  | :heavy_check_mark:  |
 | Wish yolov8face (51)  | Content Cell  | [Wish yolov8face (51)](https://github.com/wish44165/Optimizing-Facial-Landmark-Estimation-for-Embedded-Systems)  |:heavy_check_mark:  |
 | 6drepnet (68)     | fastish, less reliable than yolov5-face | [6Drepnet](https://github.com/thohemp/6DRepNet)  |:heavy_check_mark:   |
-| [deepface](https://pypi.org/project/deepface/#:~:text=Deepface%20is%20a%20hybrid%20face,configuration%20uses%20VGG%2DFace%20model.)  | max 5  |   "VGG-Face", 
-  "Facenet", 
-  "Facenet512", 
-  "OpenFace", 
-  "DeepFace", 
-  "DeepID", 
-  "ArcFace", 
-  "Dlib", 
-  "SFace",
-  "GhostFaceNet", | :white_check_mark:  |
+| [deepface](https://pypi.org/project/deepface/#:~:text=Deepface%20is%20a%20hybrid%20face,configuration%20uses%20VGG%2DFace%20model.)  | max 5  |  many_backbones | :white_check_mark:  |
 
   | [face-recognition](https://pypi.org/project/face-recognition/)  | ?   |      | :white_check_mark:  |
 
