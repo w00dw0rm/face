@@ -4,7 +4,7 @@ A place to store information on face detection , landmark detection, and angle i
 
 * Face detection / landmark * 
 
-|    Name       |# LM |face |angle        | Notes |     Tested |   [ FSA-Net](https://github.com/omasaht/headpose-fsanet-pytorch) - input = image. problems with angles > 30degrees |     [6Drepnet](https://github.com/thohemp/6DRepNet) input = 68 points - not better than fsanet, but that could be due to upstream landmarks detection  |
+|    Name       |# LM |face |angle        | Notes |     Tested |   [ FSA-Net](https://github.com/omasaht/headpose-fsanet-pytorch) - input = image+bbox. problems with angles > 30degrees |     [6Drepnet](https://github.com/thohemp/6DRepNet) input = 68 points - not better than fsanet, but that could be due to upstream landmarks detection  |
 | ------------- | ------------- |---- |---- | ------------- | ------------- |  ------------- |  ------------- |
 |  [MTCNN](https://pypi.org/project/mtcnn/)        | 5  | _   |_   |Reliable, slow  | :heavy_check_mark:   | compatible  | _   | 
 |  [dlib](https://pypi.org/project/dlib/)         | 68  |_   |_   | not as good as MTCNN , dissappointing quality on angles | :heavy_check_mark:  | _   | compatible   |  
@@ -17,5 +17,5 @@ A place to store information on face detection , landmark detection, and angle i
 | [face-recognition](https://pypi.org/project/face-recognition/)  | 5  |_   |_   |   many backbones   | _   | _   | _   |   
 | blazeface (mediapipe)  | ?  |_   |_   | FAST, but unreliable on small faces.   | :heavy_check_mark:  | _   | _   |   
 | [face_alignment](https://github.com/1adrianb/face-alignment)  | 68  |_   |_   | not stable   | :heavy_check_mark:  | _   | compatible  |   
-| [yinguobing](https://github.com/yinguobing/head-pose-estimation) (pose68) | 68  | :heavy_check_mark:   | :heavy_check_mark:    |large angles not good!  | :heavy_check_mark:  | _   | compatible  |
+| [yinguobing](https://github.com/yinguobing/head-pose-estimation) (pose68) | 68  | :heavy_check_mark:   | :heavy_check_mark:    |large angles not good!  | :heavy_check_mark:  | _   | not tested, due to bad 68 point accuracy  |
 
