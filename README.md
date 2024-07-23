@@ -17,5 +17,5 @@ A place to store information on face detection , landmark detection, and angle i
 | [face-recognition](https://pypi.org/project/face-recognition/)  | 5  |   many backbones   | _   | _   | _   |   
 | blazeface (mediapipe)  | ?  | FAST, but unreliable on small faces.   | :heavy_check_mark:  | _   | _   |   
 | [face_alignment](https://github.com/1adrianb/face-alignment)  | 68  | not stable   | :heavy_check_mark:  | _   | compatible  |   
-| [yinguobing](https://github.com/yinguobing/head-pose-estimation)  | 68  | large angles not good!  | :heavy_check_mark:  | _   | compatible  |
+| [yinguobing](https://github.com/yinguobing/head-pose-estimation) (pose68) | 68  | large angles not good!  | :heavy_check_mark:  | _   | compatible  |
 
