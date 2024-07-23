@@ -16,6 +16,6 @@ A place to store information on face detection , landmark detection, and angle i
 | [deepface](https://pypi.org/project/deepface/#:~:text=Deepface%20is%20a%20hybrid%20face,configuration%20uses%20VGG%2DFace%20model.)  | max 5  |_   |_   |  many backbones | _  | _   | _   |    _   | 
 | [face-recognition](https://pypi.org/project/face-recognition/)  | 5  |_   |_   |   many backbones   | _   | _   | _   |    _   | 
 | blazeface (mediapipe)  | ?  |_   |_   | FAST, but unreliable on small faces.   | :heavy_check_mark:  | _   | _   |    _   | 
-| [face_alignment](https://github.com/1adrianb/face-alignment) (adrian bulat) | 68  | :heavy_check_mark:   | _   | :heavy_check_mark:  not stable   | :heavy_check_mark:  | _   | compatible  |    :heavy_check_mark:    | 
+| [face_alignment](https://github.com/1adrianb/face-alignment) (adrian bulat) | 68  | :heavy_check_mark:   | _   | :heavy_check_mark:  not stable points   | :heavy_check_mark:  | _   | compatible  |    :heavy_check_mark:    | 
 | [yinguobing](https://github.com/yinguobing/head-pose-estimation) (pose68) | 68  | :heavy_check_mark:   | :heavy_check_mark: input = 68 2D points, uses PnP from 3D model    |large angles not good! occluded landmarks are guessed or incorrect  | :heavy_check_mark:  | _   | not tested, due to bad 68 point accuracy  | :heavy_check_mark:   | 
 
