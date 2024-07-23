@@ -7,7 +7,7 @@ A place to store information on face detection , landmark detection, and angle i
 |    Name       |# LM |face |angle        | Notes |     Tested |   [ FSA-Net](https://github.com/omasaht/headpose-fsanet-pytorch) - input = image+bbox. problems with angles > 30degrees |     [6Drepnet](https://github.com/thohemp/6DRepNet) input = 68 points - not better than fsanet, but that could be due to upstream landmarks detection  |  [yinguobing](https://github.com/yinguobing/head-pose-estimation) input = 68 points |
 | ------------- | ------------- |---- |---- | ------------- | ------------- |  ------------- |  ------------- | ------------- |
 |  [MTCNN](https://pypi.org/project/mtcnn/)        | 5  | _   |_   |Reliable, slow  | :heavy_check_mark:   | compatible  | _   |   _   | 
-|  [dlib](https://pypi.org/project/dlib/)         | 68  |_   |_   | not as good as MTCNN , dissappointing quality on angles | :heavy_check_mark:  | _   | compatible   |    _   | 
+|  [dlib](https://pypi.org/project/dlib/)         | 68  | :heavy_check_mark:   |_   | not as good as MTCNN , dissappointing quality on angles. not stable points like bulat | :heavy_check_mark:  | _   | compatible   |    _   | 
 | mnssd         | 5 |_   |_   | also good (like MTCNN)  | :heavy_check_mark:  | _   | _   |  _   | 
 | [yolov5-face](https://github.com/deepcam-cn/yolov5-face)   | 5  |_   |_   | Reliable  |:heavy_check_mark:  |  current best practice  | _   |  _   | 
 | [yolov8-face](https://github.com/derronqi/yolov8-face)   | 5  |_   |_   | _  | _   | _   | _   |   _   | 
